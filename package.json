@@ -1,0 +1,43 @@
+{
+  "name": "tailwind-v3-palette",
+  "version": "1.0.0",
+  "description": "Generate an HTML color palette from Tailwind CSS v3 config files",
+  "type": "module",
+  "main": "dist/cli.js",
+  "bin": {
+    "tailwind-v3-palette": "dist/cli.js",
+    "t3p": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "tkura37",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkura37/tailwind-v3-palette.git"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "color-palette",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@10.28.0",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "jiti": "^2.6.1",
+    "typescript": "^5.9.3"
+  }
+}

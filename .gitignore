@@ -1,0 +1,7 @@
+.claude/
+.devcontainer/
+.pnpm-store/
+dist/
+docs/
+node_modules/
+CLAUDE.md
