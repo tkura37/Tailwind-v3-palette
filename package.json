@@ -1,6 +1,6 @@
 {
   "name": "tailwind-v3-palette",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate an HTML color palette from Tailwind CSS v3 config files",
   "type": "module",
   "main": "dist/cli.js",
